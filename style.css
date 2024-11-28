@@ -1,0 +1,81 @@
+/* Thanksgiving Theme Colors */
+.loversq {
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+:root {
+    --peach: #FFB38E;
+    --light-orange: #FFCF9D;
+    --dark-peach: #FFB26F;
+    --brown: #DE8F5F;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--peach);
+    color: var(--brown);
+}
+
+/* Header Styling */
+.thanksgiving-header {
+    background-color: var(--light-orange);
+    color: var(--brown);
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Box */
+.box {
+    padding: 20px;
+    background-color: var(--dark-peach);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px; /* Centered content with max width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center images and content */
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 70px;
+}
+
+/* Row Layout */
+.row {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Space between images */
+}
+
+/* Column Layout */
+.column {
+    flex: 0 0 auto; /* Prevent columns from resizing */
+}
+
+/* Fixed Image Sizes */
+.column img {
+    display: block;
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensure images fill their container proportionally */
+    border: 3px solid var(--brown);
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 10px;
+    color: black;
+}
+
+
+
+
